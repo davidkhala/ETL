@@ -1,5 +1,14 @@
 # DBT core
 
+# Supported data platforms (dbt adapters)
+- Postgres
+- Redshift
+- Snowflake
+- BigQuery
+- Databricks (beta)
+- Dremio (beta)
+- Spark
+- Starburst & Trino (beta)
 # Install 
 ## brew install
 - Homebrew formulae maintained for the 4 adapter plugins: Postgres, Redshift, Snowflake, and BigQuery.
