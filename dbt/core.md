@@ -1,6 +1,7 @@
 # DBT core
 
-# Supported data platforms (dbt adapters)
+# Supported data platforms
+[Verified adapters](https://docs.getdbt.com/docs/supported-data-platforms#verified-adapters)
 - Postgres
 - Redshift
 - Snowflake
@@ -9,6 +10,24 @@
 - Dremio (beta)
 - Spark
 - Starburst & Trino (beta)
+
+[Community adapters](https://docs.getdbt.com/docs/supported-data-platforms#community-adapters)
+- Athena
+- Greenplum	Oracle
+- Clickhouse
+- Hive
+- Rockset
+- IBM DB2
+- Impala
+- SingleStore
+- SQLite
+- SQL Server & Azure SQL
+- Teradata
+- TiDB
+- Firebolt
+- AWS Glue
+- MySQL	
+
 # Install 
 ## brew install
 - Homebrew formulae maintained for the 4 adapter plugins: Postgres, Redshift, Snowflake, and BigQuery.
