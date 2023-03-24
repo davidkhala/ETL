@@ -14,3 +14,7 @@ compiles (but does not run) the models in a project
 
 ## [Run](https://docs.getdbt.com/reference/commands/run)
 - executes compiled sql model files against the current target database
+
+
+## [Seed](https://docs.getdbt.com/reference/commands/seed)
+loads CSV files (located in directory `/seed-paths`) into the database
