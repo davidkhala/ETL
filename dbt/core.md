@@ -13,7 +13,8 @@
 
 [Community adapters](https://docs.getdbt.com/docs/supported-data-platforms#community-adapters)
 - Athena
-- Greenplum	Oracle
+- Greenplum
+- Oracle
 - Clickhouse
 - Hive
 - Rockset
