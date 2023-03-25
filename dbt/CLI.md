@@ -18,3 +18,6 @@ compiles (but does not run) the models in a project
 
 ## [Seed](https://docs.getdbt.com/reference/commands/seed)
 loads CSV files (located in directory `/seed-paths`) into the database
+
+## [Source](https://docs.getdbt.com/reference/commands/source)
+provides tools for working with source data
