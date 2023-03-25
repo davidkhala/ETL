@@ -1,9 +1,5 @@
 
 
-# Run standard SQL directly
-- `dbt run` for compiled SQL in `/target`
-- invoke macros `run_query` with `dbt run-operation`
-- Use [hooks](https://docs.getdbt.com/docs/build/hooks-operations#about-hooks) inside model file 
 
 # Macros and templating
 In dbt, you can combine SQL with Jinja, a templating language, into programming environment for SQL (Jinja + SQL = PL/SQL)
