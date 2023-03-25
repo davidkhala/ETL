@@ -7,8 +7,7 @@
 
 # Macros and templating
 In dbt, you can combine SQL with Jinja, a templating language, into programming environment for SQL (Jinja + SQL = PL/SQL)
-- supports control structure, environment variables, 
-- Abstract snippets of SQL into reusable macros
+- To support control structure, environment variables, abstract snippets of SQL into reusable macros
 
 # `With` Common Table Expression (CTE)
 - A temporary result set available for use until the end of SQL script execution. (SQL composite)
