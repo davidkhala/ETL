@@ -1,7 +1,7 @@
 
 
 # Run standard SQL directly
-- `dbt run`
+- `dbt run` for compiled SQL in `/target`
 - invoke macros `run_query` with `dbt run-operation`
 - Use [hooks](https://docs.getdbt.com/docs/build/hooks-operations#about-hooks) inside model file 
 
