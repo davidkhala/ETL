@@ -23,6 +23,10 @@ Explicitly specify the right column type
 
 Generally, recommend that column renaming and type casting happen as close to the source tables as possible
 
+Blogs
+- [move from sqlalchemy to DBT](https://medium.com/@petrica.leuca/using-dbt-in-data-processing-part-1-12720f1596e7)
+- [migrate DDL to DBT](https://medium.com/@petrica.leuca/using-dbt-in-data-processing-part-2-c0cf5abb6cbd)
+
 # Drawback and don't touch
 
 ## Run standard SQL directly
