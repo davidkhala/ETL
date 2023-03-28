@@ -1,6 +1,6 @@
 export BQMS_VERBOSE="False"
 export BQMS_MULTITHREADED="True"
-export BQMS_PROJECT="<YOUR_GCP_PROJECT>"
-export BQMS_GCS_BUCKET="<YOUR_GCS_BUCKET>"
+export BQMS_PROJECT="gcp-data-davidkhala"
+export BQMS_GCS_BUCKET="bq-migrate"
 
 ./run.sh
