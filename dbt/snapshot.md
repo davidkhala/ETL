@@ -13,3 +13,13 @@ Strategy
   ```
 - Run `dbt snapshot`
 - A new table will be created,  named as `${target_schema}.${target_database}.${your_snapshot_name}`
+## Use
+`SELECT * FROM {{ ref('${your_snapshot_name}') }}`
+
+# Best practise
+- use downstream models to clean up the data enrichment (reduce snapshot)
+- Use the `source` function in your query.??
+	- This helps to understand data lineage
+- Include as many columns as possible, such as `select *`
+- Avoid joins in your snapshot query
+  - Better to snapshot the two tables separately, and join them in downstream models.
