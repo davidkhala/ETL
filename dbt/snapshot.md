@@ -18,7 +18,7 @@ Strategy
       strategy='timestamp',
       updated_at='updated_at',
     )
-}}
+  }}
   select * from ...
   {% endsnapshot %}
   ```
@@ -48,3 +48,6 @@ Snapshots can be referenced in downstream models the same way as referencing mod
   - make it very difficult to drop a snapshot unless you really want to.
 - Limit the amount of transformation in your query.
   - If you apply business logic in a snapshot query, and this logic changes in the future, it can be impossible to apply the change in logic to your snapshots.
+- Use only one `target_schema` for snapshots, not environment-aware by default.
+  - In this way, snapshot tables are more similar to source data than they are to proper dbt models.
+  - In case this doesn't work, see [work around](https://discourse.getdbt.com/t/using-dynamic-schemas-for-snapshots/1070)
