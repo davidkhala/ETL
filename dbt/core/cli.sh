@@ -1,5 +1,7 @@
-init(){
+initSilently() {
+  # see by `$ dbt init -h`
   local projectName=$1
-  dbt init $projectName --no-input
+  dbt init $projectName --skip-profile-setup
+  
 }
 $@
