@@ -21,5 +21,6 @@ brew install dbt-postgres|dbt-bigquery|...
 pip install dbt-core dbt-postgres dbt-redshift dbt-snowflake dbt-bigquery dbt-trino
 ```
 
-## optional [dbt-completion](https://github.com/dbt-labs/dbt-completion.bash)
+## (optional) [dbt-completion](https://github.com/dbt-labs/dbt-completion.bash)
 auto-complete for CLI
+
