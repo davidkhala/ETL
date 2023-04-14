@@ -18,5 +18,5 @@ brew install dbt-postgres|dbt-bigquery|...
 
 ## pip install
 ```
-pip install dbt-postgres|dbt-bigquery|...
+pip install dbt-core dbt-postgres dbt-redshift dbt-snowflake dbt-bigquery dbt-trino
 ```
