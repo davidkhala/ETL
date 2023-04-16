@@ -1,3 +1,4 @@
+set -e
 initSilently() {
   # see by `$ dbt init -h`
   local projectName=$1
