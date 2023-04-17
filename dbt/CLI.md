@@ -21,3 +21,16 @@ loads CSV files (located in directory `/seed-paths`) into the database
 
 ## [Source](https://docs.getdbt.com/reference/commands/source)
 provides tools for working with source data
+
+## `compile`
+Require
+- profile exist
+- credential (e.g. gcp Application Default Credentials)
+
+# `parse`
+Require
+- profile exist
+
+## [Partial Parsing](https://docs.getdbt.com/reference/parsing#partial-parsing)
+- Starting in v1.0, partial parsing is on by default.
+
