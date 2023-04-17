@@ -6,3 +6,7 @@ Require
 # `dbt parse`
 Require
 - profile exist
+
+# [Partial Parsing](https://docs.getdbt.com/reference/parsing#partial-parsing)
+- Starting in v1.0, partial parsing is on by default.
+
