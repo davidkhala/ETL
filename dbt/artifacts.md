@@ -1,0 +1,5 @@
+# [dbt-artifacts](https://docs.getdbt.com/reference/artifacts/dbt-artifacts)
+- [manifest.json](https://docs.getdbt.com/reference/artifacts/manifest-json)
+- [catalog.json](https://docs.getdbt.com/reference/artifacts/catalog-json)
+- [run_results.json](https://docs.getdbt.com/reference/artifacts/run-results-json)
+- [sources.json](https://docs.getdbt.com/reference/artifacts/sources-json)
