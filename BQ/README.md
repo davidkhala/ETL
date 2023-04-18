@@ -1,6 +1,8 @@
 # BQ as migrate target
 
 
+# GCP BQ Migrate Service
+
 
 ## Before you begin (prepare)
 1. [collect_source_files](https://cloud.google.com/bigquery/docs/batch-sql-translator#collect_source_files)
