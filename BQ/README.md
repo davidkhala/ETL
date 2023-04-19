@@ -1,5 +1,7 @@
 # BQ as migrate target
 
+# Datametica
+- from [teradata](https://www.datametica.com/migration-to-gcp/teradata-to-bigquery/)
 
 # GCP BQ Migrate Service
 
