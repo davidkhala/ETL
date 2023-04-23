@@ -12,6 +12,8 @@ dbt models are materialized as one of
   - Instead, dbt will interpolate the code from this model into dependent models as a common table expression(CTE).
 
 ## Incremental
+- a variant of `table` materialization
+
 Column selection
 - dbt will update only the columns specified in the config `merge_update_columns`, and keep the previous values of other columns.
 - Alternatively, you can specify a list of columns to exclude from being updated by passing a list of column names to a `merge_exclude_columns` config
