@@ -54,7 +54,9 @@ To enable this feature in dbt
 - set a column resource property, `policy_tags`
 - enable column-level persist_docs in configBlock like:
   ```
-  {{ config(
-    persist_docs={"columns": true}
-  ) }}
+  {{ 
+    config(
+      persist_docs={"columns": true}
+    )
+  }}
   ```
