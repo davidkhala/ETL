@@ -45,3 +45,16 @@ dbt run --full-refresh --select my_incremental_model+
 ```
 - the trailing `+` means also to rebuild any downstream models
 
+# Policy Tags (BQ only)
+https://docs.getdbt.com/reference/resource-configs/bigquery-configs#policy-tags
+
+BigQuery enables column-level security by setting policy tags on specific columns.
+
+To enable this feature in dbt
+- set a column resource property, `policy_tags`
+- enable column-level persist_docs in configBlock like:
+  ```
+  {{ config(
+    persist_docs={"columns": true}
+  ) }}
+  ```
