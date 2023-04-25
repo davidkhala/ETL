@@ -45,5 +45,3 @@ dbt run --full-refresh --select my_incremental_model+
 ```
 - the trailing `+` means also to rebuild any downstream models
 
-# DBT Source
-[yaml syntax](https://docs.getdbt.com/reference/source-properties)
