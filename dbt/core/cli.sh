@@ -24,6 +24,7 @@ validateModel(){
   cp $originalPath ./models/$fileName
   if ! dbt parse; then
     rm -f ./models/$fileName
+    exit 1
   fi
 }
 $@
