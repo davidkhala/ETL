@@ -1,4 +1,7 @@
-# DBT Snapshot
+# [DBT Snapshot](https://docs.getdbt.com/docs/build/snapshots)
+DBT snapshot records changes to a mutable table over time, as a compensation in case 
+- the model will have 2 new columns `dbt_valid_from` and `dbt_valid_to`
+
 # Usage
 Strategy
 - if there is a timestamp column in source schema can indicate record change, such as `updated_at`, use `strategy='timestamp'`
