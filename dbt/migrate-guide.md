@@ -1,11 +1,10 @@
-https://docs.getdbt.com/guides/migration/tools/migrating-from-stored-procedures/1-migrating-from-stored-procedures
-# What's old 
+# [migrate from stored procedures](https://docs.getdbt.com/guides/migration/tools/migrating-from-stored-procedures/1-migrating-from-stored-procedures) 
+## Before and after
 The historical codebase of transformations are often written as a hodgepodge of DDL and DML statements, or stored procedures.
 - procedural flow of building a dataset
-# What's new
-Declarative approach to defining a dataset 
 
-A series of DDL and DML statements --> uses `SELECT` statements to express data models
+DBT use a declarative approach to defining a dataset 
+- A series of DDL and DML statements --> uses `SELECT` statements to express data models
 ## DML statements migrate to DBT
 - [SQL insert](https://docs.getdbt.com/guides/migration/tools/migrating-from-stored-procedures/2-inserts)
   - design limit: only Insert-Into-Select. No Insert-Into-Values
