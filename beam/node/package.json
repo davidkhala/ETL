@@ -1,0 +1,11 @@
+{
+  "name": "@davidkhala/beam",
+  "version": "0.0.0",
+  "dependencies": {
+    "apache-beam": "latest"
+  },
+  "devDependencies": {
+    "mocha": "latest"
+  },
+  "type": "module"
+}
