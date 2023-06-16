@@ -14,5 +14,5 @@ Or
 {% endraw %}
 ```
 Or 
-Use {% raw -%} tag than {% raw %} to clean all the spaces and newlines preceding the first character of your raw data.
+Use `{% raw -%}` tag than `{% raw %}` to clean all the spaces and newlines preceding the first character of your raw data.
 
