@@ -1,9 +1,10 @@
 # [DBT test](https://docs.getdbt.com/docs/build/tests)
-Tests are assertions you make about your dbt resources (models, sources, seeds and snapshots) in your dbt project
+Tests are assertions you make about your dbt resources in your dbt project
 - [Use test in yaml config](https://docs.getdbt.com/reference/resource-properties/tests)
   - syntax supported in `model`, `source`, `seed` and `snapshot` resource
+- Behind the scenes, you or dbt constructs a `select` query for each test. These queries return the rows where your assertion is not true; if the test returns zero rows, your assertion passes.
 # generic tests
-
+Using the parametrized query from the generic test block.
 ## built-in generic tests
 Also known as Out-of-the-box tests. 
 
