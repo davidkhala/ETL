@@ -1,0 +1,14 @@
+name: Pentaho Data Integration
+
+on:
+  push:
+
+jobs:
+  install:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@main
+    - run: ./kettle/setup.sh ubuntu-preinstall
+    - run: ./kettle/setup.sh install
+    
+    
