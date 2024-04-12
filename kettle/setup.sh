@@ -9,6 +9,6 @@ ubuntu-preinstall() {
     echo "deb http://mirrors.kernel.org/ubuntu bionic main universe" | sudo tee -a /etc/apt/sources.list
     sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 3B4FE6ACC0B21F32
     sudo apt update
-    sudo apt install -y libwebkitgtk-1.0-0
+    sudo apt install -y libwebkitgtk-1.0-0 libcanberra-gtk-module libcanberra-gtk3-module
 }
 $@
