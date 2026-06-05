@@ -1,4 +1,8 @@
-[source](https://github.com/pentaho/pentaho-kettle)
+
+# install
+[Source](https://github.com/pentaho/pentaho-kettle)
+- release not available in source or packaged
+- You need to build from source
 
 # connect
 ## Oracle
