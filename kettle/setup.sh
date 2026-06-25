@@ -1,7 +1,4 @@
 set -x
-install() {
-	# TODO build from source
-}
 ubuntu-preinstall() {
 	echo "deb http://mirrors.kernel.org/ubuntu bionic main universe" | sudo tee -a /etc/apt/sources.list
 	sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 3B4FE6ACC0B21F32
