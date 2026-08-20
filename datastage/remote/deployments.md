@@ -8,3 +8,9 @@ size:
 - Small: 2c8g
 - Medium: 4c16g
 - Large: 8c32g
+
+[Get latest ds-px-runtime digest](https://github.com/IBM/DataStage/tree/main/RemoteEngine#get-latest-ds-px-runtime-digest)
+
+```
+./digest.sh ds-px-runtime
+```
